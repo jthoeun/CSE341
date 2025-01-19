@@ -4,20 +4,20 @@
     "lastName": "Thoeun",
     "email": "sailoraubee@test.com",
     "favoriteColor": "Purple",
-    "birthday": "02/17"
+    "birthday": "02/17/1988"
   },
   "contact2": {
     "firstName": "Timothy",
     "lastName": "Thoeun",
     "email": "spideytee@test.com",
     "favoriteColor": "bule",
-    "birthday": "06/19"
+    "birthday": "06/19/2021"
   },
   "contact3": {
     "firstName": "Henry",
     "lastName": "Thoeun",
     "email": "blueykid@test.com",
     "favoriteColor": "green",
-    "birthday": "11/22"
+    "birthday": "11/22/2023"
   }
 }
