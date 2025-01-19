@@ -15,7 +15,7 @@ const getAll = async (req, res, next) => {
 
 const getSingle = async (req, res, next) => {
   try {
-    const userId = req.params.id.trim(); // Trim spaces for safety
+    const userId = req.params.id.trim(); 
     console.log('Received userId:', userId);
 
     if (!ObjectId.isValid(userId)) {
