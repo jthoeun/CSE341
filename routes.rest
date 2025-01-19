@@ -1,3 +1,5 @@
+//Local Test
+
 GET http://localhost:8080/contacts
 
 ###
@@ -11,3 +13,22 @@ GET http://localhost:8080/contacts/678c40ab8fec2f2d62df84ad
 ###
 
 GET http://localhost:8080/contacts/678c40bc8fec2f2d62df84ae
+
+
+//Production on Render
+
+
+###
+GET https://cse341-wk2.onrender.com/contacts
+
+###
+
+GET https://cse341-wk2.onrender.com/contacts/678c40908fec2f2d62df84ac
+
+###
+
+GET https://cse341-wk2.onrender.com/contacts/678c40ab8fec2f2d62df84ad
+
+###
+
+GET https://cse341-wk2.onrender.com/contacts/678c40bc8fec2f2d62df84ae
