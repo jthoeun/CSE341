@@ -66,7 +66,7 @@ DELETE http://localhost:8080/contacts/6791c46050cbfbaf99f34daf HTTP/1.1
 
 //POST, PUT, DELETE Production on Render
 
-POST https://cse341-lial.onrender.com/contacts HTTP/1.1
+POST https://cse341-wk2.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -79,7 +79,7 @@ content-type: application/json
 
 
 ###
-PUT https://cse341-lial.onrender.com/contacts/678c40bc8fec2f2d62df84ae HTTP/1.1
+PUT https://cse341-w2.onrender.com/contacts/678c40bc8fec2f2d62df84ae HTTP/1.1
 content-type: application/json
 
 {
@@ -91,4 +91,4 @@ content-type: application/json
   }
 
 ###
-DELETE https://cse341-lial.onrender.com/contacts/6791c46050cbfbaf99f34daf HTTP/1.1
+DELETE https://cse341-w2.onrender.com/contacts/6791c46050cbfbaf99f34daf HTTP/1.1
