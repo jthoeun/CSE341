@@ -32,3 +32,36 @@ GET https://cse341-wk2.onrender.com/contacts/678c40ab8fec2f2d62df84ad
 ###
 
 GET https://cse341-wk2.onrender.com/contacts/678c40bc8fec2f2d62df84ae
+
+// POST, PUT DELETE localhost
+
+###
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Johnny",
+    "lastName": "Thoeun",
+    "email": "jthouen@test.com",
+    "favoriteColor": "Green",
+    "birthday": "03/19/1989"
+}
+
+
+###
+PUT http://localhost:8080/contacts/678c40bc8fec2f2d62df84ae HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Henry",
+    "lastName": "Thoeun",
+    "email": "blueykid@test.com",
+    "favoriteColor": "green",
+    "birthday": "11/22/2023"
+  }
+
+###
+DELETE http://localhost:8080/contacts/6791c46050cbfbaf99f34daf HTTP/1.1
+
+
+//POST, PUT, DELETE Production on Render
