@@ -92,7 +92,7 @@ const deleteContact = async (req, res) => {
     }
 
     const objectId = new ObjectId(userId);
-    const response = await mongodb.getDb().db().collection('contacts').findOneandDelete({ _id: objectId });
+    const response = await mongodb.getDb().db().collection('contacts').deleteOne({ _id: objectId });
 
     if (response.deletedCount > 0) {
       console.log('Contact deleted successfully');
