@@ -55,24 +55,25 @@ content-type: application/json
 {
     "firstName": "Henry",
     "lastName": "Thoeun",
-    "email": "blueykid@test.com",
+    "email": "blueykid@test.net",
     "favoriteColor": "green",
     "birthday": "11/22/2023"
   }
 
 ###
-DELETE http://localhost:8080/contacts/6791c46050cbfbaf99f34daf HTTP/1.1
+DELETE http://localhost:8080/contacts/679317e7f40c7fb4f4ce1b45 HTTP/1.1
 
 
 //POST, PUT, DELETE Production on Render
 
+###
 POST https://cse341-wk2.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
     "firstName": "Johnny",
     "lastName": "Thoeun",
-    "email": "jthouen@test.com",
+    "email": "jthoeun@test.com",
     "favoriteColor": "Green",
     "birthday": "03/19/1989"
 }
@@ -91,4 +92,4 @@ content-type: application/json
   }
 
 ###
-DELETE https://cse341-w2.onrender.com/contacts/6791c46050cbfbaf99f34daf HTTP/1.1
+DELETE https://cse341-w2.onrender.com/contacts/679314c62bbaa59c4d2b3ef1 HTTP/1.1
