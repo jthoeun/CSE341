@@ -71,19 +71,19 @@ content-type: application/json
 {
     "firstName": "Henry",
     "lastName": "Thoeun",
-    "email": "blueykid@test.net",
+    "email": "blueykid@test.com",
     "favoriteColor": "green",
     "birthday": "11/22/2023"
   }
 
 ###
-DELETE http://localhost:8080/contacts/67946da15fb47d337480e13f HTTP/1.1
+DELETE http://localhost:8080/contacts/67947c785575e8cf71066934 HTTP/1.1
 
 
 //POST, PUT, DELETE Production on Render
 
 ###
-POST https://cse341-wk2.onrender.com/contacts HTTP/1.1
+POST https://cse341-wk3.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -95,16 +95,16 @@ content-type: application/json
 }
 
 ###
-PUT https://cse341-w2.onrender.com/contacts/678c40bc8fec2f2d62df84ae HTTP/1.1
+PUT https://cse341-wk3.onrender.com/contacts/678c40bc8fec2f2d62df84ae HTTP/1.1
 content-type: application/json
 
 {
     "firstName": "Henry",
     "lastName": "Thoeun",
-    "email": "blueykid@test.com",
+    "email": "blueykid@test.net",
     "favoriteColor": "green",
     "birthday": "11/22/2023"
   }
 
 ###
-DELETE https://cse341-w2.onrender.com/contacts/67946da15fb47d337480e13f HTTP/1.1
+DELETE https://cse341-wk3.onrender.com/contacts/67947ccd35f99a4d4e7f2ec2 HTTP/1.1
